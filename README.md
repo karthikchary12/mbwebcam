@@ -45,6 +45,20 @@ Now open your mbwebcam folder and run the python file
 ```
 python3 mbwebcam.py
 ```
+### NOTE(Mainly for Windows): If you faced any error while running the python file like ModuleNotFoundError for CV2 or imutils use the following commands
+
+For CV2 use 
+```
+python3 -m pip install opencv-python
+```
+
+For imutils use
+```
+python3 -m pip install imutils
+```
+ 
+
+
 Now enter your noted url in it
 
 ![Screenshot from 2022-10-08 20-49-06](https://user-images.githubusercontent.com/63688597/194715193-8f48c961-bb25-499a-8768-e2947acdba0e.png)
